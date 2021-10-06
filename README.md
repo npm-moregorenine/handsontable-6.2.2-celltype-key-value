@@ -9,7 +9,7 @@ Handsontable(version 6.2.2) plugin allowing to have a key-value pair as a data t
 ## Installation
 
 ```bash
-npm i handsontable-key-value
+npm i handsontable-6.2.2-celltype-key-value
 ```
 
 ## Usage

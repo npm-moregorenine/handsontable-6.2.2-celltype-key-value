@@ -1,10 +1,10 @@
 {
-  "name": "handsontable-key-value",
-  "version": "3.0.2",
-  "description": "Handstontable plugin to handle key-value pair data type.",
+  "name": "handsontable-6.2.2-celltype-key-value",
+  "version": "1.0.1",
+  "description": "Handstontable v6.2.2 plugin to handle key-value pair data type.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kpi-intelligence/handsontable-key-value.git"
+    "url": "https://github.com/npm-moregorenine/handsontable-6.2.2-celltype-key-value"
   },
   "main": "commonjs/index.js",
   "module": "es/index.js",

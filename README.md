@@ -1,8 +1,8 @@
 # handsontable-key-value
 
-[![](https://img.shields.io/npm/v/handsontable-key-value.svg?style=flat)](https://www.npmjs.com/package/handsontable-key-value)
+[![](https://img.shields.io/npm/v/handsontable-6.2.2-celltype-key-value.svg?style=flat)](https://www.npmjs.com/package/handsontable-6.2.2-celltype-key-value)
 
-Handsontable plugin allowing to have a key-value pair as a data type. It's built upon the builtin `autocomplete` feature with some small tweaks to make it work with such use-case.
+Handsontable(version 6.2.2) plugin allowing to have a key-value pair as a data type. It's built upon the builtin `autocomplete` feature with some small tweaks to make it work with such use-case.
 
 ## [Demo](https://stackblitz.com/edit/handsontable-key-value-demo)
 

@@ -35,7 +35,7 @@
     "rimraf": "^2.6.3"
   },
   "peerDependencies": {
-    "handsontable": "^7.0.0"
+    "handsontable": "^6.2.2"
   },
   "dependencies": {
     "lodash.deburr": "^4.1.0"

@@ -17,7 +17,7 @@ npm i handsontable-6.2.2-celltype-key-value
 Use it as a column type and provide the required settings:
 
 ```js
-import 'handsontable-key-value' // Import the module to register the extensions
+import 'handsontable-6.2.2-celltype-key-value' // Import the module to register the extensions
 
 const settings = {
   columns: [

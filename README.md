@@ -1,4 +1,4 @@
-# handsontable-key-value
+# handsontable-6.2.2-celltype-key-value
 
 [![](https://img.shields.io/npm/v/handsontable-6.2.2-celltype-key-value.svg?style=flat)](https://www.npmjs.com/package/handsontable-6.2.2-celltype-key-value)
 
@@ -23,7 +23,6 @@ const settings = {
   columns: [
     {
       type: 'key-value',
-      filter: false, // Same parameter as in `autocomplete`
       data: 'status', // The field containing the key value in your data
       // List of source items
       source: [
@@ -54,7 +53,6 @@ const settings = {
   columns: [
     {
       type: 'key-value',
-      filter: false,
       data: 'status',
       source: function(_query, process) {
         const r = [
@@ -80,19 +78,8 @@ const settings = {
 };
 ```
 
-### Filters
-
-We also provide a custom implementation of the [Filters plugin](https://handsontable.com/docs/latest/demo-filtering.html) that works with key-value columns. Enable it in your settings:
-
-```js
-const settings = {
-  // filters: true <-- Remember to disable the official filters plugin
-  filtersKeyValue: true,
-}
-```
-
-All the options provided by the official plugin are available.
-
 ## Limitations
+-The sort is done on the **underlying value**, not the displayed one (unless you provide a custom compare function).
 
-* The sort is done on the **underlying value**, not the displayed one (unless you provide a custom compare function).
+## Reference
+- <https://www.npmjs.com/package/handsontable-key-value>

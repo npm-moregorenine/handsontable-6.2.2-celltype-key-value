@@ -1,6 +1,6 @@
 {
   "name": "handsontable-6.2.2-celltype-key-value",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Handstontable v6.2.2 plugin to handle key-value pair data type.",
   "repository": {
     "type": "git",

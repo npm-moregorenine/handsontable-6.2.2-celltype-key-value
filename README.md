@@ -79,7 +79,7 @@ const settings = {
 ```
 
 ## Limitations
--The sort is done on the **underlying value**, not the displayed one (unless you provide a custom compare function).
+- The sort is done on the **underlying value**, not the displayed one (unless you provide a custom compare function).
 
 ## Reference
 - <https://www.npmjs.com/package/handsontable-key-value>

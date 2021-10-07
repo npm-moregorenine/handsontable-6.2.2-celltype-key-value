@@ -1,11 +1,18 @@
 {
   "name": "handsontable-6.2.2-celltype-key-value",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Handstontable v6.2.2 plugin to handle key-value pair data type.",
   "repository": {
     "type": "git",
     "url": "https://github.com/npm-moregorenine/handsontable-6.2.2-celltype-key-value"
   },
+  "keywords": [
+    "handsontable",
+    "6.2.2",
+    "celltype",
+    "autocomplete",
+    "key-value"
+  ],
   "main": "commonjs/index.js",
   "module": "es/index.js",
   "scripts": {
